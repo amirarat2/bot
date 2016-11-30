@@ -149,17 +149,15 @@ end
 end
 end
  return {
- advan = {
- "Created by: @janlou",
- "Powered by: @AdvanTm",
- "CopyRight all right reserved",
+ arta = {
+ "@TeleARTA",
  },
  patterns = {
-    "^[!#/](setlang) (fa)$",
-	   "^[!#/](setlang) (en)$",
-	   "^[!#/](setlang) (فا)$",
-	   "^[!#/](lang) (list)$",
-	   "^[!#/](update)$",
+    "^[](setlang) (fa)$",
+	   "^[](setlang) (en)$",
+	   "^[](setlang) (فا)$",
+	   "^[](lang) (list)$",
+	   "^[](update)$",
  },
  run = run
 }
