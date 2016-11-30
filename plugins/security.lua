@@ -1236,11 +1236,9 @@ end
  --End run function
 return {
 	patterns = {
-"^[!/#](lock) (.*)$",
-"^[!/#](unlock) (.*)$",
+"^[](lock) (.*)$",
+"^[](unlock) (.*)$",
 	},
 	pre_process = pre_process,
 	run = run
 }
---End security.lua
---By @Rondoozle
