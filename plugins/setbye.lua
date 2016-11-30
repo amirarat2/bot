@@ -42,14 +42,12 @@ end
    end
 
 return {
- advan = {
-   "Created by: @janlou",
-   "Powered by: @AdvanTM",
-   "CopyRight all right reserved",
+ arta = {
+   "@TeleARTA",
  },
  patterns = {
-  "^[!#/]([Ss]etbye) (.*)$",
-  "^[!#/]([Dd]elbye)$",
+  "^[]([Ss]etbye) (.*)$",
+  "^[]([Dd]elbye)$",
   "^!!tgservice (chat_del_user)$",
   "^!!tgservice (channel_kick)$",
   "^!!tgservice (kick_user)$",
